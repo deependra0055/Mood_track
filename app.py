@@ -14,7 +14,7 @@ MOODS = {
 }
 
 # Google Sheet name
-SHEET_NAME = "Mood Log"
+SHEET_NAME = "Mood Tracker"
 
 # Authenticate with Google Sheets using parsed credentials
 service_account_info = json.loads(st.secrets["GOOGLE_SHEETS_CREDS"])
